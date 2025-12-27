@@ -1,0 +1,21 @@
+:root { --max: 760px; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.55; }
+a { text-decoration: none; }
+header, main, footer { max-width: var(--max); margin: 0 auto; padding: 24px; }
+header { padding-top: 36px; }
+.brand { font-weight: 650; letter-spacing: .2px; }
+.muted { opacity: .75; }
+.card { border: 1px solid rgba(0,0,0,.12); border-radius: 14px; padding: 18px; margin: 14px 0; }
+.meta { font-size: 14px; opacity: .75; margin-top: 6px; }
+h1 { font-size: 34px; margin: 0 0 6px; }
+h2 { font-size: 22px; margin: 0 0 10px; }
+p { margin: 12px 0; }
+hr { border: 0; border-top: 1px solid rgba(0,0,0,.12); margin: 22px 0; }
+.footer { font-size: 13px; opacity: .75; padding-bottom: 36px; }
+blockquote { margin: 16px 0; padding: 10px 14px; border-left: 3px solid rgba(0,0,0,.2); opacity: .9; }
+button, input, textarea { font: inherit; }
+label { display:block; margin: 12px 0 6px; }
+input, textarea { width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid rgba(0,0,0,.18); }
+button { padding: 10px 12px; border-radius: 10px; border: 1px solid rgba(0,0,0,.22); cursor: pointer; }
+small { display:block; opacity:.8; margin-top: 8px; }

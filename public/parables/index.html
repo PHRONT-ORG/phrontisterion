@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Parables — PHRONTISTERION</title>
+  <link rel="stylesheet" href="/assets/styles.css" />
+</head>
+<body>
+<header>
+  <div class="brand"><a href="/">PHRONTISTERION</a></div>
+  <div class="muted">Parables (public)</div>
+</header>
+
+<main>
+  <div class="card">
+    <h2>Parable Index</h2>
+    <p><a href="/parables/p-001.html">P-001 — The Patient Farmer and the Quiet Stakes</a></p>
+    <p><a href="/parables/p-002.html">P-002 — The Net of Every Kind</a></p>
+    <p><a href="/parables/p-003.html">P-003 — The Pearl and the Receipt</a></p>
+  </div>
+
+  <div class="card">
+    <h2>Request a private explanation (optional)</h2>
+    <p class="muted">This is an inquiry channel, not a membership application. Adults only.</p>
+
+    <form method="post" action="/api/inquiry">
+      <label for="name">Name (optional)</label>
+      <input id="name" name="name" autocomplete="name" />
+
+      <label for="contact">Contact (email or signal handle)</label>
+      <input id="contact" name="contact" required />
+
+      <label for="parable">Which parable?</label>
+      <input id="parable" name="parable" placeholder="P-001 / P-002 / P-003" required />
+
+      <label for="message">What are you asking?</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <small>By submitting, you confirm you are 18+ and participating voluntarily. No medical/legal advice is provided.</small>
+      <p><button type="submit">Send inquiry</button></p>
+    </form>
+  </div>
+</main>
+
+<footer class="footer">
+  <hr />
+  <div><a href="/">Home</a></div>
+</footer>
+</body>
+</html>

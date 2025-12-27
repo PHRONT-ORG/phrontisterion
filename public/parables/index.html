@@ -24,7 +24,8 @@
     <h2>Request a private explanation (optional)</h2>
     <p class="muted">This is an inquiry channel, not a membership application. Adults only.</p>
 
-    <form method="post" action="/api/inquiry">
+    <form method="post" action="/api/inquiry"><input name="website" style="display:none" tabindex="-1" autocomplete="off" />
+
       <label for="name">Name (optional)</label>
       <input id="name" name="name" autocomplete="name" />
 
